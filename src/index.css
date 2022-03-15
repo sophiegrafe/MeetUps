@@ -1,20 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
-* {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url("../public/poeple-meeting-up.jpg");
+  background-size: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #474747;
+  padding: 3rem;
 }
 
 h1 {
-  font-size: 2.5rem;
-  color: #2c292b;
+  font-size: 3.5rem;
+  color: #474747;
 }
 
 h2 {
-  font-size: 1.5rem;
-  color: #2c292b;
+  font-size: 3rem;
+  color: #474747;
+  letter-spacing: 0.1rem;
 }
